@@ -1,0 +1,19 @@
+''' 
+    # Criar Ambiente Virtual PIP:
+    virtualenv .venv 
+
+    #ativar ambiente virtual python venv com PIP:
+     source .venv/bin/activate
+
+    # sair do ambiente virtual python venv com PIP:
+    deactivate
+
+    # instalar bibliotecas python Exemplos:
+    pip install pillow
+
+    # criar arquivo txt para armazenamentos de dados das bibliotecas Python:
+    pip freeze > requirements.txt
+
+
+
+'''

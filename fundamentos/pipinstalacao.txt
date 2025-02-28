@@ -1,0 +1,17 @@
+## Windows
+python -m venv .venv
+source .venv/Scripts/activate # Ativar ambiente
+
+## Linux 
+## Caso não tenha virtualenv. "pip install virtualenv"
+virtualenv .venv
+source .venv/bin/activate # Ativar ambiente
+
+#ver bibliotecas instaladas
+pip list
+
+pip freeze > requirements.txt
+
+###instalar em outro computador
+
+pip install -r ./requirements.txt

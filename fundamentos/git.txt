@@ -1,0 +1,51 @@
+COMANDOS GIT
+
+0- Instalar o git:
+sudo apt install git
+
+1- git init
+2- git status
+
+2a- Criar o arquivo .gitignore
+
+2b- add o git o arquivo no visual studio code:
+git add .gitignore
+
+2b- add no vscode os arq n enviar.
+/.venv
+
+3- git add .gitignore
+3a- git status
+
+4- git add .
+4a- git status
+
+5- Caso seja a 1ª vez pesq no google:
+git config username and email
+
+5a- Usa esses comandos:   
+git config --global user.name "waldivamweb21"
+git config --global user.email waldivamprogramadorweb21@gmail.com
+
+6- git log
+
+7- git commit -m "Envio do Projeto"
+
+8- Se criar um documento faz esses processos:
+git add "git.txt"
+git commit -m "nova edicao do arq git.txt"
+
+log
+
+9- inicia o github e cria new project e adiciona esses comandos:
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/waldivamweb21/PythonSimples.git
+
+# Criando um novo arq e add ao GIT:
+git add "coloca o nome do arquivo"
+git commit -m "first commit"
+git push -u origin main
+
+
+

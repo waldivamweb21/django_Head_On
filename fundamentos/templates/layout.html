@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        <title>
+            {% block title %}
+                DjangoAPP
+            {% endblock %}
+        </title>
+    </head>
+    <body>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="{% url 'products:list' %}">Products</a>
+            <a href="{% url 'users:register' %}">SignUp</a>
+        </nav>
+        {% block content %}
+
+        {% endblock %}
+    </body>
+</html>
